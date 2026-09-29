@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "rootDir": ".",
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
+    "rootDir": "src",
     "outDir": "dist",
 
     "strict": true,
@@ -19,12 +19,12 @@
   },
 
   "include": [
-    "src/**/*.ts",
-    "tests/**/*.ts"
+    "src/**/*.ts"
   ],
 
   "exclude": [
     "node_modules",
-    "dist"
+    "dist",
+    "tests"
   ]
 }
